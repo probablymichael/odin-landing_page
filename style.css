@@ -1,0 +1,43 @@
+/* colors and font styles */
+
+.header,
+.hero,
+.footer{
+    background-color: #1F2937;
+}
+
+.hero-header{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8
+}
+.hero-text,
+.links{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-button,
+.sign-up{
+    background-color: #3882f6;
+}
+.sign-container{
+    background-color: #3882f6;
+}
+.info-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
+}
+.quote-container{
+    background-color: #E5E7EB
+}
+.quote{
+    font-size: 36px;
+    font-weight: light;
+    color: #1F2937;
+}
