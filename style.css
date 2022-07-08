@@ -11,11 +11,13 @@
     font-weight: bolder;
     color: #f9faf8
 }
+
 .hero-text,
-.links{
+a{
     font-size: 18px;
     color: #E5E7EB;
 }
+
 .header-logo{
     font-size: 24px;
     color: #F9FAF8;
@@ -24,20 +26,122 @@
 .hero-button,
 .sign-up{
     background-color: #3882f6;
+    color: #f9faf8;
 }
+
 .sign-container{
     background-color: #3882f6;
 }
+
 .info-header{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937
 }
+
 .quote-container{
     background-color: #E5E7EB
 }
+
 .quote{
     font-size: 36px;
     font-weight: light;
     color: #1F2937;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+ul{
+  list-style: none;
+  
+}
+
+/* general */
+body{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+.header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 3rem;
+}
+
+.links{
+  display: flex;
+  gap: 1rem;
+}
+
+/* hero */
+
+.hero{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.hero-header,
+.hero-text{
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
+}
+
+.hero-button{
+  padding: 2px 16px;
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
+
+/* some random info part */
+
+.info-header{
+  display: flex;
+  justify-content: center;
+  padding: 1.8rem;
+  margin-bottom: 8px;
+}
+
+.img-container{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.images{
+  max-width: 200px;
+  
+}
+
+/* quote */
+
+.quote-container{
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote{
+  width: 750px;
+}
+
+.quote-subtext{
+  width: 750px;
+  display: flex;
+  justify-content: flex-end;
+
+  font-weight: bold;
+  font-size: 1.2rem;
 }
