@@ -2,7 +2,7 @@
 
 .header,
 .hero,
-.footer{
+footer{
     background-color: #1F2937;
 }
 
@@ -144,4 +144,48 @@ body{
 
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+/* sign up */
+
+.sign-up-container{
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+  
+}
+
+.sign-container{
+  padding: 2rem;
+  width: 670px;
+  border: 10px solid #3882f6;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-up{
+  margin-right: 2.5rem;
+  border: 2px solid #f9faf8;
+  border-radius: 10px;
+  padding: 2px 24px;
+}
+
+.sign-text-container{
+  color: #f9faf8;
+}
+
+.sign-header{
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* footer */
+
+footer{
+  text-align: center;
+  color: #f9faf8;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
 }
