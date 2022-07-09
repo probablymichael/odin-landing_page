@@ -126,9 +126,12 @@ body{
 
 .images{
   max-width: 200px;
-  
 }
 
+.info-img{
+  border: 5px solid #3882f6;
+  border-radius: 10px;
+}
 /* quote */
 
 .quote-container{
