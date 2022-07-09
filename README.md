@@ -1,4 +1,4 @@
-# odin-landing_page
+# Landing Page (The Odin Project)
 
 :computer: The "Odin Landing Page" project is part of the Foundations. Specifically, the last lesson of **Flexbox**, which is basically in CSS.
 
